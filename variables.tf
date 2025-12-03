@@ -97,6 +97,7 @@ variable "subscription_id" {
   description = "provide the subscription where you provision put this vnet"
   type = string
 }
+
 variable "rg_name" {
   default = "<your-resource-group-name-here>"
   description = "name of resource group where you wanna provision the vnet"
